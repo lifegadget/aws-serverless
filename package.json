@@ -1,0 +1,21 @@
+{
+  "name": "aws-serverless",
+  "version": "1.0.0",
+  "description": "Type definitions for AWS Serverless projects",
+  "main": "aws.js",
+  "types": "aws.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ken Snyder <ken@ken.net>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.77.0",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4",
+    "common-types": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0"
+  }
+}
