@@ -83,7 +83,7 @@ export function invokeLambda(
     context: ILambdaContext
 ): Promise<any> {
 
-  const lambda = new AWS.Lambda(region);
+  const lambda = new AWS.Lambda({region});
 
   data['meta'] = {
     stage,

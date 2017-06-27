@@ -1,6 +1,6 @@
 {
   "name": "aws-serverless",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Type definitions for AWS Serverless projects",
   "main": "aws.js",
   "types": "aws.ts",
